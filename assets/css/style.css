@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    height: 100vh;
+    background-image : url(../img/ilustracion_people.png) , url(../img/ilustracion1.png);
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    margin-bottom: 10%; 
+}
+.logo-section {
+    display: flex;
+}
+.logo-text  {
+    padding: 2% 0 0 6%;
+    margin: 0;
+}
+.logo {
+    padding: 2% 0 0 1% ;
+    width: 3%;
+    position: fixed;  
+}
+.header-text {
+    height: 50%;
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+.header-text h2 {
+    font-size: 4em;
+    font-weight: bold;
+}
+.header-text p {
+    font-size: 1.3em;
+    font-weight: 100;
+    padding-bottom: 25%;
+}
+.header-text p img {
+    height: 25px;
+}
+#header a {
+    font-size: 1.2em;
+    color: rgb(255, 0, 106);
+    text-decoration: none;
+}
+
+
+.main-section-first {
+    height: 100vh;
+    background: url(../img/images.jpg) center/contain no-repeat;
+}
+
+.main-section-second {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.main-section-second div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.main-section-second h2 {
+    font-size: 4em;
+}
+.main-section-second div p {
+    width: 100%;
+    margin-left: 15%;
+    font-size: 1.5em;
+}
+.main-section-second .free-headline {
+    width: 60%;
+}
+
+.main-section-third {
+    height: 90vh;
+}
+.main-section-third article {
+        display: flex;
+        justify-content: space-around;
+        margin: 8%;
+}
+.main-section-third div {
+    width: 45%;
+}
+.main-section-third h2 {
+    font-size: 2em;
+    padding-bottom: 3%;
+
+}
+.main-section-third p {
+    font-size: 1.3em;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+.main-section-third img {
+    margin-right: 2%;
+}
+
+.section-fourth-headline  {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-fourth-headline h2 {
+    font-size: 3em;
+    padding-bottom: 2%;
+}
+.section-fourth-headline p {
+    font-size: 1.5em;
+}
+.atricle-img {
+    width: 50%;
+}
+.main-section-fourth article {
+    display: flex;
+    margin: 5%;
+    padding: 5% 0;
+
+}
+.section-fourth-div h3 {
+    font-size: 6em;
+    color: gray;
+    padding: 5%; 
+
+}
+.section-fourth-div img {
+    padding: 5%; 
+
+}
+.section-fourth-div h4 {
+    font-size: 1.5em;
+    padding-left: 5%;
+}
+.section-fourth-div p{
+    font-size: 1.2em;
+    padding: 2% 5%;
+
+}
+.rev {
+    flex-direction: row-reverse;
+}
+#footer div {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+#footer div h2 {
+    font-size: 4em;
+    padding-bottom: 10%;
+}
+#footer div p {
+    font-size: 1.5em;
+    padding-bottom: 5%;
+}
+#footer div [type="text"] {
+    padding: 2% 20%;
+    font-size: 1.5em;
+    color: gray;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, alpha);
+}
+#footer div button {
+    padding: 2% 8% ;
+    background-color: rgb(255, 0, 106);
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+
+#footer h5 {
+    margin: 5%;
+    font-size: 1.1em;
+}
+
+
