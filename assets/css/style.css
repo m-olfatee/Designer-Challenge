@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 #header {
-    height: 100vh;
+    height: fit-content;
     background-image : url(../img/ilustracion1.png);
     background-position: top right;
     background-size: contain;
@@ -70,7 +70,7 @@ body {
 
 
 .main-section-first {
-    height: 100vh;
+    height: 70vh;
     background: url(../img/images.jpg) center/contain no-repeat;
 }
 
@@ -98,6 +98,9 @@ body {
 
 .main-section-third {
     height: 90vh;
+}
+.main-section-third h2 img {
+    height: 40px;
 }
 .main-section-third article {
         display: flex;
@@ -187,7 +190,7 @@ body {
     font-size: 1.5em;
     color: gray;
     border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, alpha);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #footer div button {
     padding: 2% 8% ;
@@ -201,4 +204,10 @@ body {
     font-size: 1.1em;
 }
 
- 
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 10px;
+      color: gold;
+    }
+    
+  }
