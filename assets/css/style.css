@@ -9,7 +9,7 @@ body {
 }
 #header {
     height: 100vh;
-    background-image : url(../img/ilustracion_people.png) , url(../img/ilustracion1.png);
+    background-image : url(../img/ilustracion1.png);
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat; 
@@ -26,6 +26,23 @@ body {
     padding: 2% 0 0 1% ;
     width: 3%;
     position: fixed;  
+}
+  @keyframes example {
+    0%   {top:10px;}
+    100% {top:0px;}
+  }
+.animation {
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+
+}
+.animation img{
+    width: 65%;
+    position: absolute;
+    right: 2%;
 }
 .header-text {
     height: 50%;
@@ -184,4 +201,4 @@ body {
     font-size: 1.1em;
 }
 
-
+ 
